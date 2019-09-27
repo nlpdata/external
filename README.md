@@ -21,7 +21,7 @@ Below are the detailed instructions.
 
 1. Clone this repository.
 2. Download ```ARC-V1-Feb2018.zip``` from AI2, unzip it, and copy ```ARC_Corpus.txt``` (in the unzipped folder ```ARC-V1-Feb2018-2```) to ```data``` folder. The CRC of ```ARC_Corpus.txt``` should be ```8CFE08C6```.
-3. Run ```python3 gen.py``` to generate ```arc_challenge.json```, ```arc_easy.json```, and ```openbookqa.json```. The format of these files are as follows.
+3. Run ```python3 gen.py``` to generate ```arc_challenge.json```, ```arc_easy.json```, and ```openbookqa.json```, which correspond to the input for models ```IRC + IEC``` and ```IRC + IEC + MD``` in Table 5 in the [paper](https://arxiv.org/abs/1902.00993v2). The format of these files are as follows.
 ```
 {
  FileName-QuestionID: [
