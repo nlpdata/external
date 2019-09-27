@@ -1,4 +1,4 @@
-Retrieved sentences for each (question, answer option) pair in three multiple-choice science question answering datasets (i.e., ARC-Easy, ARC-Challenge, and OpenBookQA).
+Retrieved sentences for each (question, answer option) pair in three multiple-choice science question answering datasets (i.e., ARC-Easy, ARC-Challenge, and OpenBookQA) from integrated reference corpus + integrated external corpus (i.e., IRC & IEC described in [Improving Question Answering with External Knowledge](https://arxiv.org/abs/1902.00993v2)).
 
 
 This is a re-implementation. As of the release date of this repository, the Allen Institute for Artificial Intelligence (AI2) disallows third parties to redistribute the ARC Corpus. Therefore, we cannot directly release a resource containing the retrieved sentences from the ARC Corpus. Instead, for all such sentences, we provide pointers to the ARC Corpus as well as a script for fetching the retrieved sentences based on the pointers and your local copy of the corpus. 
